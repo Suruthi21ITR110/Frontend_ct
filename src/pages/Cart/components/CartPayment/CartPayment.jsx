@@ -70,6 +70,8 @@ const CartPayment = () => {
                                             </div>
                                             <button type="button" className="general-button"><Link to="/Login">Proceed To Checkout</Link></button>
                                         </div>
+                                         <div><Link to="/PaymentPage" ><center><button className="general-button" >Proceed to Payment</button></center></Link></div>
+
                                     </div>
                                 </div>
                             </div>
