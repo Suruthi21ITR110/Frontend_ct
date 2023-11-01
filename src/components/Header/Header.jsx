@@ -82,7 +82,7 @@ const Header = () => {
                             <li><Link to="./LoginPage"><p>Login</p></Link></li>
                             <li><Link to="./About"><p>About Us</p></Link></li>
                             <li><Link to="./Contact"><p>Contact Us</p></Link></li><li>
-                            <li><Link to="PatientProfile">Profile</Link></li>
+                         
                            {user && (
         <div>
           <p> name:{user.username}</p>
