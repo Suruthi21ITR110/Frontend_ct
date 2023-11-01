@@ -315,7 +315,7 @@ function LoginPage() {
     }
   };
 
-  const backgroundImageUrl = 'https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178345.jpg?w=1060&t=st=1697099305~exp=1697099905~hmac=b7217fcf8e37934360faa7ee0becb0e69a816253118e53683ddc39bb302e385f'; // Replace with the actual image URL
+  const backgroundImageUrl = 'https://img.freepik.com/free-vector/botanical-themed-design-space_53876-89210.jpg?w=1060&t=st=1697041206~exp=1697041806~hmac=8e6b84513540e643b1d2b818adfc2bd5687e6ca855f3d51c720228bb72505b2e'; // Replace with the actual image URL
 
   return (
     <div className='log' style={{
