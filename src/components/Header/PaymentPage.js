@@ -57,34 +57,8 @@ function PaymentPage() {
           className={`payment-method ${selectedPaymentMethod === 'gpay' ? 'selected' : ''}`}
           onClick={() => selectPaymentMethod('gpay')}
         >
-          <img
-            className="payment-icon"
-            src="https://static.vecteezy.com/system/resources/previews/021/672/629/non_2x/google-pay-logo-transparent-free-png.png"
-            alt="Google Pay"
-          />
-          Google Pay
-        </div>
-        <div
-          className={`payment-method ${selectedPaymentMethod === 'phonepe' ? 'selected' : ''}`}
-          onClick={() => selectPaymentMethod('phonepe')}
-        >
-          <img
-            className="payment-icon"
-            src="https://download.logo.wine/logo/PhonePe/PhonePe-Logo.wine.png"
-            alt="PhonePe"
-          />
-          PhonePe
-        </div>
-        <div
-          className={`payment-method ${selectedPaymentMethod === 'upi' ? 'selected' : ''}`}
-          onClick={() => selectPaymentMethod('upi')}
-        >
-          <img
-            className="payment-icon"
-            src="https://getlogo.net/wp-content/uploads/2020/10/unified-payments-interface-upi-logo-vector.png"
-            alt="UPI"
-          />
-          UPI
+            Scan to pay
+          
         </div>
       </div>
       <br></br>
